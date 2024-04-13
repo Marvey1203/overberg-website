@@ -54,7 +54,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:h-[640] lg:w-[616px] w-[330px] h-[330px] relative">
+            <div className="lg:h-[640px] lg:w-[616px] w-[330px] h-[330px] relative">
                 <Image className="rounded-[30px]" src={'/Stats Image.png'} alt="electrical image of town and electrical elements" fill={true}/>
             </div>
 

@@ -29,14 +29,16 @@ const Header = () => {
                     <div className="flex flex-row gap-5 items-center">
                         <Link href={'/'}>Home</Link>
                         <Link href={'/about'}>About</Link>
-                        <Link href={'/services'} className="flex justify-row gap-3 hover:cursor-pointer"
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            <p>Services</p>
-                            <Image src={"/VectorServices.svg"} height={8} width={13} alt="Down Arrow for more information on services"/>
-                            {servicesState && <ServicesPopUp/>}
-                        </Link>
+                                <div className="flex justify-row gap-3">
+                                    <Link onClick={menuToggle} href={'/services'} className="flex justify-row gap-3 hover:cursor-pointer"
+                                    >
+                                    <p>Services</p>
+                                    </Link>
+                                    <button onClick={mobileServiceState} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                                        <Image src={"/VectorServices.svg"} height={3} width={10} alt="Down Arrow for more information on services"/>
+                                        {servicesState && <ServicesPopUp/>}
+                                    </button>
+                                </div>
                         <Link href={'/contact'}>Contact</Link>
                     </div>
                 </div>

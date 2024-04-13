@@ -11,7 +11,7 @@ const ServicesPopUp = () => {
         {name: 'Fireplaces', url: '/services/Fireplaces'},
     ]
     return ( 
-        <div className="absolute bg-white text-black mt-6 py-3 px-3">
+        <div className="absolute bg-white text-black mt-6 md:mt-2 py-3 px-3">
             <ul className="grid grid-cols-3 gap-3">
                 {
                     servicesList.map(item => {

@@ -5,10 +5,10 @@ import Link from "next/link";
 const Services = () => {
     return ( 
     <>
-        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-[150px] pb-[100px] md:py-[150px]">
-            <div className="flex flex-col gap-5 justify-center items-center w-full text-center">
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-[150px] pb-[100px] md:py-[150px] lg:py-[80px]">
+            <div className="flex flex-col gap-5 justify-center lg:flex  lg:items-start items-center w-full text-center lg:text-left">
                 <h1 className="font-bold lg:text-[48px] text-[32px] leading-tight">Empowering Your Space with Expert Electrical Solutions</h1>
-                <p className="text-[13px] text-center">
+                <p className="text-[13px]">
                     At Overberg Lighting & Electrical we specialize in a comprehensive range of electrical services. From wiring to lighting and electrical installations, we’ve got you covered. Our skilled team ensures seamless integration of solar panels, reliable DSTV connections, robust CCTV and security systems, efficient gates and garage automation, cozy fireplace installations, and optimal air conditioning solutions. 
                 </p>
                 <div className="flex flex-row gap-4">
@@ -138,10 +138,10 @@ const Services = () => {
                             </p>
                             <div className="flex flex-row gap-5 pt-4">
                                 <Link href={'tel:0285143417'}>
-                                    <button className="call-us-button bg-black">Call Us Now</button>
+                                    <button className="call-us-button bg-black ">Call Us Now</button>
                                 </Link>
                                 <Link href={''}>
-                                    <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image className="stroke-black" src={'/Arrow right black.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
+                                    <button className="button flex flex-row gap-4 justify-center items-center ">Learn More <Image className="stroke-black" src={'/Arrow right black.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
                                 </Link>
                             </div>                        
                         </div>
@@ -160,7 +160,7 @@ const Services = () => {
                                     <button className="call-us-button bg-black">Call Us Now</button>
                                 </Link>
                                 <Link href={''}>
-                                    <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image className="stroke-black" src={'/Arrow right black.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
+                                    <button className="button flex flex-row gap-4 justify-center items-center ">Learn More <Image className="stroke-black" src={'/Arrow right black.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
                                 </Link>
                             </div>                        
                         </div>

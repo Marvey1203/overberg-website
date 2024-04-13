@@ -14,8 +14,8 @@ const AirConditioning = () => {
         <>
         <section className="flex flex-col justify-center items-center h-screen">
             <div className="lg:w-[766px] flex flex-col text-center gap-4">
-                <h1 className="lg:text-[50px] font-bold leading-tight">Medium length hero headline goes here</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                <h1 className="lg:text-[50px] text-[30px] font-bold leading-tight">Expert Air Conditioning Services for Your Comfort</h1>
+                <p>Stay cool and comfortable with our professional air conditioning solutions. Whether you need installation, repairs, or maintenance, our skilled technicians are here to keep your home or business at the perfect temperature. Contact us today for reliable service!</p>
                 <div className="gap-5 flex flex-row  justify-center items-center">
                     <Link href={'tel:0285143417'}>
                         <button className="call-us-button">Call Now</button>
@@ -27,32 +27,32 @@ const AirConditioning = () => {
             </div>
         </section>
         <section>
-            <p>Tagline</p>
-            <h2 className="lg:text-[48px] font-bold">
+            <p className="font-semibold">Tagline</p>
+            <h2 className="lg:text-[48px] text-[28px] font-bold">
                 Short heading goes here
             </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div className="grid grid-cols-4 gap-4 lg:gap-8 my-10">
-                <div className="text-black bg-white flex flex-col gap-4 col-span-2 lg:py-16 px-10">
-                    <h3 className="lg:text-[40px] font-semibold">Short heading here</h3>
+            <div className="grid lg:grid-cols-4 gap-4 lg:gap-8 my-10 grid-cols-2">
+                <div className="text-black bg-white flex flex-col gap-4 col-span-2 lg:py-16 lg:px-10 py-8 px-5">
+                    <h3 className="lg:text-[40px] text-[25px] font-semibold">Short heading here</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                 </div>
-                <div className="text-black bg-white flex flex-col gap-4 lg:py-16 px-10">
-                    <h4 className="lg:text-[24] font-semibold">Medium length section heading goes here</h4>
+                <div className="text-black bg-white flex flex-col gap-4 lg:py-16 lg:px-10 py-8 px-5">
+                    <h4 className="lg:text-[20px] text-[15px] font-semibold">Medium length section heading goes here</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div className="text-black bg-white flex flex-col gap-4 lg:py-16 px-10">
-                    <h4 className="lg:text-[24] font-semibold">Medium length section heading goes here</h4>
+                <div className="text-black bg-white flex flex-col gap-4 lg:py-16 lg:px-10 py-8 px-5">
+                    <h4 className="lg:text-[20px] text-[15px] font-semibold">Medium length section heading goes here</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
         </section>
         <section className="h-full flex flex-col gap-8 py-[150px] justify-center items-center">
-            <h4 className="text-[30px] font-semibold">Work by Overberg Lighting & Electrical</h4>
+            <h4 className="lg:text-[30px] md:text-[25px] font-semibold text-center">Work by Overberg Lighting & Electrical</h4>
             <Carousel>
-                <CarouselItem>
+                <CarouselItem className="pl-0">
                     <CarouselContent>
-                        <div className="relative h-[720px] w-[1120px]">
+                        <div className="relative lg:h-[720px] lg:w-[1120px] w-[350px] h-[250px] md:h-[480px] md:w-[650px]">
                             <Image src={'/Image.png'} alt='' fill={true}/>
                         </div>
                     </CarouselContent>

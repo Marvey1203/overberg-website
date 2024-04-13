@@ -23,3 +23,6 @@ body {
 section {
     @apply text-white
 }
+button {
+    @apply text-[13px] md:text-[15px] lg:text-[16px]
+}
