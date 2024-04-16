@@ -47,7 +47,7 @@ const Header = () => {
                         <button className="call-us-button text-[13px]">Call Us Now</button>
                     </Link>
                     <button onClick={menuToggle}>
-                        <Image src={'/hamburger.png'} alt="Mobile menu icon" height={30} width={30} />
+                        <Image priority src={'/hamburger.png'} alt="Mobile menu icon" height={30} width={30} />
                     </button>
                     {
                         toggleMenu &&
