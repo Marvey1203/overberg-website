@@ -13,7 +13,7 @@ export default function Home() {
   return (
    <>
     <section className="z-0 text-white flex justify-center items-center h-[550px] lg:h-[500px] xl:h-[900px]">
-      <Image className="mx-auto absolute top-0 z-0" src={"/HeroBackground.png"} alt="Dark background with spotlight at the top." width={1100} height={733} />
+      <Image priority className="mx-auto absolute top-0 z-0" src={"/HeroBackground.png"} alt="Dark background with spotlight at the top." width={1100} height={733} />
       <div className="max-w-[900px] mx-auto absolute flex justify-center items-center flex-col py-10">
         <h1 className="lg:text-6xl text-[32px] font-semibold text-center">
           Solving electrical issues, restoring peace of mind.
@@ -33,7 +33,7 @@ export default function Home() {
     </section>
     <section className="grid lg:grid-cols-3 grid-flow-row gap-10 w-full lg:h-full lg:mb-40 mb-0 md:py-10 px-10">
       <div className="lg:col-span-2 h-[380px] lg:h-[600px] rounded-[30px] flex justify-center items-center relative">
-        <Image src={'/Rectangle 3.png'} alt="Background image for electrician" fill={true} />
+        <Image priority src={'/Rectangle 3.png'} alt="Background image for electrician" fill={true} />
         <div className="absolute z-10 text-white lg:w-[70%] px-8 md:px-4">
           <p>Reliable</p>
           <h2 className="lg:text-[48px] text-[20px] font-bold leading-snug">Providing Quality Electrical Solutions in Swellendam</h2>
@@ -87,10 +87,10 @@ export default function Home() {
         </div>
 
       </div>
-      <Image className="rounded-[30px]" src={"/Accredited installers image.jfif"} alt={"Choose Accredited Installers for Reliable Security and Electrical Solutions image"} height={640} width={616}/>
+      <Image loading="lazy" className="rounded-[30px]" src={"/Accredited installers image.jfif"} alt={"Choose Accredited Installers for Reliable Security and Electrical Solutions image"} height={640} width={616}/>
     </section>
     <section className="grid lg:grid-cols-2 grid-cols-1 lg:py-[150px] py-[50px] gap-10 px-10">
-       <Image className="rounded-[30px]" src={"/ElectricalTools.jfif"} alt="electrical tools on table" height={640} width={616}/>
+       <Image loading="lazy" className="rounded-[30px]" src={"/ElectricalTools.jfif"} alt="electrical tools on table" height={640} width={616}/>
 
       <div className="flex flex-col justify-center gap-5 w-full order-first lg:order-last">
         <div>
@@ -134,21 +134,21 @@ export default function Home() {
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 mb-5">
         <div className="py-16 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
           <div>
-            <Image alt="Expert Advice and Friendly Service icon" src={'/friendlyFace.png'} height={59} width={48}/>
+            <Image loading="lazy" alt="Expert Advice and Friendly Service icon" src={'/friendlyFace.png'} height={59} width={48}/>
             <h3 className="text-[26px] font-bold leading-tight">Expert Advice and Friendly Service</h3>
           </div>
           <p className="text-[13px]">Our knowledgeable staff is here to assist you with any questions or concerns you may have.</p>
         </div>
         <div className="py-16 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
           <div>
-            <Image alt="Competitive Prices on Top Brands icon" src={'/topBrands.png'} height={59} width={48}/>
+            <Image loading="lazy" alt="Competitive Prices on Top Brands icon" src={'/topBrands.png'} height={59} width={48}/>
             <h3 className="text-[26px] font-bold leading-tight">Competitive Prices on Top Brands</h3>
           </div>
           <p className="text-[13px]">We offer competitive prices on a wide selection of top-quality electrical products.</p>
         </div>
         <div className="py-16 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
           <div>
-            <Image alt="Convenient Location and Easy Parking icon" src={'/location.png'} height={59} width={48}/>
+            <Image loading="lazy" alt="Convenient Location and Easy Parking icon" src={'/location.png'} height={59} width={48}/>
             <h3 className="text-[26px] font-bold leading-tight">Convenient Location and Easy Parking</h3>
           </div>
           <p className="text-[13px]">We offer competitive prices on a wide selection of top-quality electrical products.</p>
@@ -214,17 +214,17 @@ export default function Home() {
         <div className="w-full justify-between flex lg:flex-row flex-col">
           <div className="lg:w-[30%] flex flex-col justify-center gap-8 w-full">
             <div>
-              <Image alt="Icon of an envelope for email" width={27} height={21.5} src={'/VectorEmailIcon.svg'}/>
+              <Image loading="lazy" alt="Icon of an envelope for email" width={27} height={21.5} src={'/VectorEmailIcon.svg'}/>
               <p className="font-bold py-3">Email</p>
               <Link href={'mailto:overberg@overberglighting.co.za'} className="border-b hover:border-b-[#3F959B] w-fit hover:cursor-pointer">overberg@overberglighting.co.za </Link>
             </div>            
             <div>
-              <Image alt="Icon of a phone" width={24} height={24} src={'/VectorPhoneIcon.svg'}/>
+              <Image loading="lazy" alt="Icon of a phone" width={24} height={24} src={'/VectorPhoneIcon.svg'}/>
               <p className="font-bold py-3">Phone</p>
               <Link href={'tel:0285143417'} className="border-b hover:border-b-[#3F959B] w-fit hover:cursor-pointer">(028) 514-3417</Link>
             </div>            
             <div>
-              <Image alt="Location icon" width={20} height={27} src={'/VectorLocationIcon.svg'}/>
+              <Image loading="lazy" alt="Location icon" width={20} height={27} src={'/VectorLocationIcon.svg'}/>
               <p className="font-bold py-3">Location</p>
               <Link target="_blank" href={'https://maps.google.com/maps/dir//Overberg+Lighting+%26+Electrical+Swellendam+79+Voortrek+St+Swellendam+6740/@-34.0221302,20.4411084,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x1dd3d191a9b08607:0x29120d738633ee8b'} className="border-b hover:border-b-[#3F959B] w-fit hover:cursor-pointer">79 Voortrek street, Swellendam 6740</Link>
             </div>
