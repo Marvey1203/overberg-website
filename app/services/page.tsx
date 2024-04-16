@@ -275,7 +275,7 @@ const Services = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center py-10">
                 <div className="lg:w-[679px]">
                     <p>Why choose us</p>
-                    <h2 className="leading-tight font-bold lg:text-[48px] text-[30px] pb-3">Empowering Your Space with Expert Electrical Solutions</h2>
+                    <h2 className="leading-tight font-bold lg:text-[40px] text-[30px] pb-3">Empowering Your Space with Expert Electrical Solutions</h2>
                 </div>
                 <p className="lg:w-[480px] w-full text-[13px]">
                     Electricity isn’t just a convenience; it’s a fundamental necessity that powers our lives. Whether you’re at home, in the office, or running a business, reliable electrical systems are crucial. That’s where we come in.
@@ -284,21 +284,21 @@ const Services = () => {
             <div className="grid lg:grid-cols-3 lg:gap-8 grid-cols-1 gap-4">
                 <div className="flex flex-col gap-5">
                     <Image src={'/Professional Expertise.png'} alt='Image of electrical tools used by electricians' height={240} width={405} />
-                    <h3 className="font-bold text-[28px] lg:text-[32px]">Professional Expertise</h3>
+                    <h3 className="font-bold text-[28px] lg:text-[30px]">Professional Expertise</h3>
                     <p className="text-[13px]">
                         Our team of trained professionals ensures that your electrical problems are addressed with precision and care. From minor repairs to complex installations, we’ve got the expertise to handle it all.
                     </p>
                 </div>                
                 <div className="flex flex-col gap-5">
                     <Image src={'/Comprehensive Services.png'} alt='Image of electrical tools used by electricians' height={240} width={405} />
-                    <h3 className="font-bold text-[28px] lg:text-[32px]">Comprehensive Services</h3>
+                    <h3 className="font-bold text-[28px] lg:text-[30px]">Comprehensive Services</h3>
                     <p className="text-[13px]">
                         We cover a wide spectrum of electrical services, including solar panel installations, home security solutions, motorized gates, and more. No matter the scale or scope, we’ve got you covered.                    
                     </p>
                 </div>
                 <div className="flex flex-col gap-5">
                     <Image src={'/Seamless Wiring.png'} alt='Image of electrical tools used by electricians' height={240} width={405} />
-                    <h3 className="font-bold text-[28px] lg:text-[32px]">Seamless Wiring</h3>
+                    <h3 className="font-bold text-[28px] lg:text-[30px]">Seamless Wiring</h3>
                     <p className="text-[13px]">
                         Moving into a new house, setting up fresh offices, or  a new building? Count on us to wire it seamlessly and install all the necessary electrical systems. Your space will be powered efficiently and safely                    
                     </p>
