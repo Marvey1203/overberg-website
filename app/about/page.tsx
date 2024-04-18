@@ -9,7 +9,7 @@ const About = () => {
                 <p className="text-[13px] text-center lg:text-left">Ensuring safety and quality in everybody’s electrical journey.</p>
             </div>
             <div>
-                <Image priority className="rounded-[30px]" src={'/Electrician hero about image.webp'} alt=' animate electrician with icons of tools and electrical items' width={616} height={640} />
+                <Image priority loading="eager" className="rounded-[30px]" src={'/Electrician hero about image.webp'} alt=' animate electrician with icons of tools and electrical items' width={616} height={640} />
             </div>
         </section>
         <section>

@@ -13,7 +13,7 @@ export default function Home() {
   return (
    <>
     <section className="z-0 text-white flex justify-center items-center h-[550px] lg:h-[500px] xl:h-[900px]">
-      <Image priority className="mx-auto absolute top-0 z-0" src={"/HeroBackground.png"} alt="Dark background with spotlight at the top." width={1100} height={733} />
+      <Image priority className="mx-auto absolute top-0 z-0" src={"/HeroBackground.webp"} alt="Dark background with spotlight at the top." width={1100} height={733} />
       <div className="max-w-[900px] mx-auto absolute flex justify-center items-center flex-col py-10">
         <h1 className="lg:text-6xl text-[32px] font-semibold text-center">
           Solving electrical issues, restoring peace of mind.
