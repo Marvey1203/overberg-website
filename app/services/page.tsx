@@ -20,7 +20,7 @@ const Services = () => {
                     </Link>
                 </div>
             </div>
-            <Image src={'/Service Hero Image.png'} alt="animated image of a house that is connected by electrical wire" height={900} width={720} />
+            <Image src={'/Service Hero Image.webp'} alt="animated image of a house that is connected by electrical wire" height={900} width={720} />
         </section>
         <section>
             <div className="grid lg:grid-cols-2 lg:gap-8 grid-cols-1 gap-4">
@@ -57,7 +57,7 @@ const Services = () => {
                                 <button className="call-us-button">Call Us Now</button>
                             </Link>
                             <Link href={''}>
-                                <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
+                                <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                             </Link>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Services = () => {
                     
                 </div>
                 <div className="relative w-full lg:h-[600px] h-[300px] my-10">
-                    <Image src={'/CCTV & Security.png'} alt="Image of a cameras and other security elements with blue background" fill={true}/>
+                    <Image src={'/CCTV & Security.webp'} alt="Image of a cameras and other security elements with blue background" fill={true}/>
                 </div>
         </section>
         <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 py-[50px] lg:gap-8 lg:py-[150px]">
@@ -94,14 +94,14 @@ const Services = () => {
                         <button className="call-us-button">Call Us Now</button>
                     </Link>
                     <Link href={''}>
-                        <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
+                        <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                     </Link>                
                 </div>
             </div>
-            <Image src={'/Lighting & Electrical Image.png'} alt="Animated style image including electricians and electrical components" width={616} height={640}/>
+            <Image src={'/Lighting & Electrical Image.webp'} alt="Animated style image including electricians and electrical components" width={616} height={640}/>
         </section>
         <section className="grid lg:grid-cols-2 lg:gap-8 lg:py-[100px] grid-cols-1 gap-4 py-[50px]">
-            <Image src={'/Solar Image.png'} alt="Animated style image including solar panels and solar elements" width={616} height={640}/>
+            <Image src={'/Solar Image.webp'} alt="Animated style image including solar panels and solar elements" width={616} height={640}/>
             <div className="flex flex-col gap-4 justify-center order-first lg:order-last">
                 <h2 className="lg:text-[48px] text-[28px] font-bold">Solar Systems</h2>
                 <p className="text-[13px]">
@@ -112,7 +112,7 @@ const Services = () => {
                         <button className="call-us-button">Call Us Now</button>
                     </Link>
                     <Link href={''}>
-                            <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
+                            <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                     </Link>                
                 </div>
             </div>
@@ -147,7 +147,7 @@ const Services = () => {
                         </div>
 
                         <div className="lg:h-[360px] h-[260px] relative w-full">
-                            <Image alt="Image of an automated gate" src={'/Gates Image.png'} fill={true}/>
+                            <Image alt="Image of an automated gate" src={'/Gates Image.webp'} fill={true}/>
                         </div>
                     </div>
                     <div className="flex flex-col gap-2 rounded-[30px] bg-white text-black justify-between">
@@ -166,7 +166,7 @@ const Services = () => {
                         </div>
 
                         <div className="lg:h-[360px] h-[260px] relative w-full">
-                            <Image alt="Image of an automated garage door" src={'/Garages Image.png'} fill={true}/>
+                            <Image alt="Image of an automated garage door" src={'/Garages Image.webp'} fill={true}/>
                         </div>                    
                     </div>
 
@@ -208,7 +208,7 @@ const Services = () => {
                                 <button className="call-us-button">Call Us Now</button>
                             </Link>
                             <Link href={''}>
-                                <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
+                                <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                             </Link>                        
                         </div>
                     </div>
@@ -217,7 +217,7 @@ const Services = () => {
                     
                 </div>
                 <div className="relative w-full lg:h-[600px] h-[280px] my-10">
-                    <Image className="rounded-[30px]" src={'/DSTV Image.png'} alt="Image of a DSTV dish" fill={true}/>
+                    <Image className="rounded-[30px]" src={'/DSTV Image.webp'} alt="Image of a DSTV dish" fill={true}/>
                 </div>
         </section>
         <section className="lg:py-[100px] grid lg:grid-cols-2 lg:gap-8 py-[50px] gap-4 grid-cols-1">
@@ -247,30 +247,14 @@ const Services = () => {
                         <button className="call-us-button">Call Us Now</button>
                     </Link>
                     <Link href={''}>
-                        <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
+                        <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                     </Link>                
                 </div>
 
             </div>
             <Image width={616} height={640} alt="Animated image of an airconditioner including icons representing heat and cold" src={'/Airconditioning Image.png'} />
         </section>
-        <section className="lg:py-[100px] grid lg:grid-cols-2 lg:gap-8 grid-cols-1 gap-4 py-[50px]">
-            <Image alt="Image of a fireplace in a modern house" src={'/Fireplace Image.png'} height={640} width={616} />
-            <div className="flex flex-col gap-2 justify-center order-first lg:order-last">
-                <h2 className="leading-tight font-bold lg:text-[48px] text-[30px]">Fireplace Installation and Maintenace</h2>
-                <p className="text-[13px]">
-                    Our certified electricians specialize in fireplace installation and maintenance. Whether you need a new electric fireplace installed or require maintenance for an existing one, we’ve got you covered. Trust us to ensure safety compliance, aesthetics, and peak performance for your cozy evenings.
-                </p>
-                <div className="flex flex-row gap-5 py-5">
-                    <Link href={'tel:0285143417'}>
-                        <button className="call-us-button">Call Us Now</button>
-                    </Link>
-                    <Link href={''}>
-                        <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
-                    </Link>                
-                </div>
-            </div>
-        </section>
+
         <section className="lg:py-[100px] flex flex-col lg:gap-8 py-[20px] gap-4">
             <div className="flex flex-col lg:flex-row justify-between items-center py-10">
                 <div className="lg:w-[679px]">
@@ -308,7 +292,7 @@ const Services = () => {
                         <button className="call-us-button">Call Us Now</button>
                     </Link>
                     <Link href={''}>
-                        <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
+                        <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                     </Link>                
                 </div>
             </div>

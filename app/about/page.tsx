@@ -9,7 +9,7 @@ const About = () => {
                 <p className="text-[13px] text-center lg:text-left">Ensuring safety and quality in everybody’s electrical journey.</p>
             </div>
             <div>
-                <Image priority className="rounded-[30px]" src={'/Electrician hero about image.jfif'} alt=' animate electrician with icons of tools and electrical items' width={616} height={640} />
+                <Image priority className="rounded-[30px]" src={'/Electrician hero about image.webp'} alt=' animate electrician with icons of tools and electrical items' width={616} height={640} />
             </div>
         </section>
         <section>
@@ -26,7 +26,7 @@ const About = () => {
                 </p>
             </div>
             <div className="relative w-full lg:h-[600px] h-[250px] my-10">
-                <Image src={'/Our Story Image.png'} alt="Image of a electrician in a town" fill={true}/>
+                <Image src={'/Our Story Image.webp'} alt="Image of a electrician in a town" fill={true}/>
             </div>
         </section>
         <section className="grid lg:grid-cols-2 lg:gap-8 gap-4 lg:py-[150px] py-[50px]">
@@ -46,7 +46,7 @@ const About = () => {
                 <div className="w-full flex flex-row justify-between py-10">
                     <div className="flex flex-col justify-center lg:w-[296px] w-full">
                         <p className="font-bold text-[26px] lg:text-[48px]">3</p>
-                        <p className="text-[13px]">Projects Completed</p>
+                        <p className="text-[13px]">Certified Teams</p>
                     </div>
                     <div className="w-[296px] flex flex-col justify-end">
                         <p className="font-bold text-[26px] lg:text-[48px]">20</p>
@@ -55,7 +55,7 @@ const About = () => {
                 </div>
             </div>
             <div className="lg:h-[640px] lg:w-[616px] w-[330px] h-[330px] relative">
-                <Image className="rounded-[30px]" src={'/Stats Image.png'} alt="electrical image of town and electrical elements" fill={true}/>
+                <Image className="rounded-[30px]" src={'/Stats Image.webp'} alt="electrical image of town and electrical elements" fill={true}/>
             </div>
 
 
