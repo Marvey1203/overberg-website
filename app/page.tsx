@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section className="grid lg:grid-cols-2 grid-cols-1 lg:py-[100px] py-[50px] gap-10 px-10">
+    <section className="grid lg:grid-cols-2 grid-cols-1 lg:py-[100px] pt-[100px] py-[50px] gap-10 px-10">
       <div className="flex flex-col justify-center items-start my-10">
         <h2 className="text-[30px] lg:text-[26px] leading-tight font-bold py-4">
           Choose Accredited Installers for Reliable Security and Electrical Solutions
