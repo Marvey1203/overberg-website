@@ -19,7 +19,7 @@ const Contact = () => {
                         <Image src={'/Email.webp'} alt="Icon of an envelope used to show email addres" fill={true}/>
                     </div>
                 </div>
-                <Link className="border-b border-solid border-[#3F959B]" href={'mailto:overberg@overberglighting.com'}>overberg@overberglighting.com</Link>
+                <Link className="border-b border-solid border-[#3F959B] lg:text-[13px]" href={'mailto:overberg@overberglighting.com'}>overberg@overberglighting.com</Link>
             </div>
             <div className="rounded-[30px] bg-white text-black py-[50px] px-5 flex flex-col justiyf-center items-center">
                 <div className="flex flex-row gap-3 justify-center items-center">
@@ -28,7 +28,7 @@ const Contact = () => {
                         <Image src={'/Phone.webp'} alt="Icon of an envelope used to show email addres" fill={true}/>
                     </div>
                 </div>
-                <Link className="border-b border-solid border-[#3F959B]" href={'tel:0285143417'}>(028)514-3417</Link>
+                <Link className="border-b border-solid border-[#3F959B] lg:text-[13px]" href={'tel:0285143417'}>(028)514-3417</Link>
             </div>
             <div className="rounded-[30px] bg-white text-black py-[50px] px-5 flex flex-col justiyf-center items-center">
                 <div className="flex flex-row gap-3 justify-center items-center">
@@ -37,7 +37,7 @@ const Contact = () => {
                         <Image src={'/Location (1).webp'} alt="Icon of an envelope used to show email addres" fill={true}/>
                     </div>
                 </div>
-                <Link target="_blank" className="border-b border-solid border-[#3F959B]" href={'https://maps.google.com/maps/dir//Overberg+Lighting+%26+Electrical+Swellendam+79+Voortrek+St+Swellendam+6740/@-34.0221302,20.4411084,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x1dd3d191a9b08607:0x29120d738633ee8b'}>79 Voortrek street, Swellendam, 6740</Link>
+                <Link target="_blank" className="border-b border-solid border-[#3F959B] lg:text-[13px]" href={'https://maps.google.com/maps/dir//Overberg+Lighting+%26+Electrical+Swellendam+79+Voortrek+St+Swellendam+6740/@-34.0221302,20.4411084,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x1dd3d191a9b08607:0x29120d738633ee8b'}>79 Voortrek street, Swellendam, 6740</Link>
             </div>
 
         </section>

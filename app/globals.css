@@ -8,7 +8,7 @@ body {
 
 .call-us-button {
     @apply px-[18px] py-[8px] border-[#3F959B] border-[1px] border-solid shadow-button
-    hover:shadow-button-hover;
+    hover:shadow-button-hover whitespace-nowrap;
   color: #fff; /* Set your desired text color */
   font-weight: 400; /* Set your desired font weight */
   transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
@@ -18,7 +18,7 @@ body {
     @apply px-[20px] py-[8px] bg-black text-white
 }
 .button {
-    @apply px-[20px] py-[8px]
+    @apply px-[20px] py-[8px] whitespace-nowrap
 }
 section {
     @apply text-white

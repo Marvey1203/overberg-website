@@ -8,7 +8,6 @@ const ServicesPopUp = () => {
         {name: 'Gates & Garages', url: '/services/Gates_&_Garages'},
         {name: 'Dstv', url: '/services/Dstv'},
         {name: 'Air Conditioning', url: '/services/Air_Conditioning'},
-        {name: 'Fireplaces', url: '/services/Fireplaces'},
     ]
     return ( 
         <div className="absolute bg-white text-black mt-6 md:mt-2 py-3 px-3">

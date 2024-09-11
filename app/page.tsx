@@ -14,7 +14,7 @@ export default function Home() {
    <>
     <section className="z-0 text-white flex justify-center items-center h-[550px] lg:h-[500px] xl:h-[900px]">
       <Image priority className="mx-auto absolute top-0 z-0" src={"/HeroBackground.webp"} alt="Dark background with spotlight at the top." width={1100} height={733} />
-      <div className="max-w-[900px] mx-auto absolute flex justify-center items-center flex-col py-10">
+      <div className="max-w-[900px] mx-auto absolute flex justify-center items-center flex-col py-10 lg:pt-[140px]">
         <h1 className="lg:text-6xl text-[32px] font-semibold text-center">
           Solving electrical issues, restoring peace of mind.
         </h1>
@@ -32,20 +32,20 @@ export default function Home() {
       </div>
     </section>
     <section className="grid lg:grid-cols-3 grid-flow-row gap-10 w-full lg:h-full lg:mb-40 mb-0 md:py-10 px-10">
-      <div className="lg:col-span-2 h-[380px] lg:h-[600px] rounded-[30px] flex justify-center items-center relative">
+      <div className="lg:col-span-2 h-[380px] lg:h-[450px] rounded-[30px] flex justify-center items-center relative">
         <Image priority src={'/Rectangle 3.webp'} alt="Background image for electrician" fill={true} />
         <div className="absolute z-10 text-white lg:w-[70%] px-8 md:px-4">
           <p>Reliable</p>
-          <h2 className="lg:text-[48px] text-[20px] font-bold leading-snug">Providing Quality Electrical Solutions in Swellendam</h2>
+          <h2 className="lg:text-[32px] text-[20px] font-bold leading-snug">Providing Quality Electrical Solutions in Swellendam</h2>
           <p className="mt-3 text-[13px]">
             At Overberg Lighting & Electrical, we are dedicated to delivering top-notch electrical services to the community of Swellendam, Overberg. With our expertise and commitment to excellence, we strive to meet and exceed the expectations of our customers.
           </p>        
         </div>
       </div>
-      <div className="col-span-1 flex flex-col gap-10 h-[600px]">
+      <div className="col-span-1 flex flex-col lg:gap-5 gap-10 h-[450px] z-10">
         <div className="w-[100%] bg-white rounded-[30px] flex flex-col justify-center px-8 h-[350px] text-black">
           <h3 className="text-[20px] md:text-[16px] font-bold">Accredited Installers</h3>
-          <p className="py-5 text-[13px]">
+          <p className="py-5 text-[13px] lg:py-3">
             We specialize in DSTV, CCTV, Security Systems, Gates & Garages, Solar Systems, Lighting & Electrical, and air conditioners.
           </p>
           <div className="w-full ">
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
         <div className="w-[100%] bg-white rounded-[30px] flex flex-col justify-center px-8 h-[350px] text-black">
         <h3 className="text-[20px] md:text-[16px] font-bold">Quality Service</h3>
-          <p className="py-5 text-[13px]">
+          <p className="py-5 text-[13px] lg:py-3">
             Our team of experts is committed to providing exceptional service and reliable solutions.          
           </p>
           <div className="w-full ">
@@ -69,12 +69,12 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section className="grid lg:grid-cols-2 grid-cols-1 lg:py-[150px] py-[50px] gap-10 px-10">
+    <section className="grid lg:grid-cols-2 grid-cols-1 lg:py-[100px] py-[50px] gap-10 px-10">
       <div className="flex flex-col justify-center items-start my-10">
-        <h2 className="text-[30px] leading-tight font-bold py-4">
+        <h2 className="text-[30px] lg:text-[26px] leading-tight font-bold py-4">
           Choose Accredited Installers for Reliable Security and Electrical Solutions
         </h2>
-        <p className="w-full mb-4 text-[13px]">
+        <p className="w-full mb-4 text-[13px] lg:text-[11px]">
           When it comes to your home or business security and electrical needs, trust the expertise of accredited installers. With Overberg Lighting & Electrical, you can expect top-quality service, advanced technology, and peace of mind.
         </p>
         <div className="w-full flex flex-row justify-start gap-5">
@@ -89,27 +89,27 @@ export default function Home() {
       </div>
       <Image loading="lazy" className="rounded-[30px]" src={"/Accredited installers image.webp"} alt={"Choose Accredited Installers for Reliable Security and Electrical Solutions image"} height={640} width={616}/>
     </section>
-    <section className="grid lg:grid-cols-2 grid-cols-1 lg:py-[150px] py-[50px] gap-10 px-10">
+    <section className="grid lg:grid-cols-2 grid-cols-1 lg:py-[100px] py-[50px] gap-10 px-10">
        <Image loading="lazy" className="rounded-[30px]" src={"/ElectricalTools.webp"} alt="electrical tools on table" height={640} width={616}/>
 
       <div className="flex flex-col justify-center gap-5 w-full order-first lg:order-last">
         <div>
-          <h3 className="my-2 font-bold text-[26px]">Accredited Installation Services</h3>
-          <p className="text-[13px]">We offer a wide range of installation services including DSTV, CCTV, Solar Systems, Gates & Garages, Lighting & Electrical, and Air Conditioning. Our team of experts ensures professional and reliable installations to meet your needs.</p>
+          <h3 className="my-2 font-bold text-[26px] lg:text-[20px] lg:my-0">Accredited Installation Services</h3>
+          <p className="text-[13px] lg:text-[11px]">We offer a wide range of installation services including DSTV, CCTV, Solar Systems, Gates & Garages, Lighting & Electrical, and Air Conditioning. Our team of experts ensures professional and reliable installations to meet your needs.</p>
         </div>
         <div>
-          <h3 className="my-2 font-bold text-[26px]">Professional Electrical Wiring</h3>
-          <p className="text-[13px]">We offer expert electrical wiring services for both residential and commercial properties. Our team of accredited electricians ensures that your electrical systems are installed safely and efficiently, meeting all necessary regulations and standards. Whether you need wiring for a new construction project or require upgrades and repairs for an existing property, we have the expertise to handle it</p>
+          <h3 className="my-2 font-bold text-[26px] lg:text-[20px] lg:my-0">Professional Electrical Wiring</h3>
+          <p className="text-[13px] lg:text-[11px]">We offer expert electrical wiring services for both residential and commercial properties. Our team of accredited electricians ensures that your electrical systems are installed safely and efficiently, meeting all necessary regulations and standards.</p>
         </div>
         <div>
-          <h3 className="my-2 font-bold text-[26px]">Efficient Repair Services</h3>
-          <p className="text-[13px]">If you encounter any electrical issues with your installed systems, our skilled technicians are here to help. We offer efficient repair services to address a wide range of electrical problems and get your systems up and running smoothly again, minimizing downtime and inconvenience.</p>
+          <h3 className="my-2 font-bold text-[26px] lg:text-[20px] lg:my-0">Efficient Repair Services</h3>
+          <p className="text-[13px] lg:text-[11px]">If you encounter any electrical issues with your installed systems, our skilled technicians are here to help. We offer efficient repair services to address a wide range of electrical problems and get your systems up and running smoothly again, minimizing downtime and inconvenience.</p>
         </div>
 
       </div>
 
     </section>
-    <section className="w-full lg:py-[150px] py-[50px]  px-8">
+    <section className="w-full lg:py-[100px] py-[50px]  px-8">
       <div className="flex lg:flex-row flex-col lg:gap-5 gap-2 mx-auto border border-solid border-[#3F959B] rounded-[30px] py-5 px-5">
         <div>
           <h2 className="text-[30px] font-bold leading-tight pb-3">Let us help you transform your space with our professional electrical services.</h2>
@@ -125,31 +125,31 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section className="lg:py-[150px] py-[50px] px-8">
+    <section className="lg:py-[100px] py-[50px] px-8">
       <div className="flex flex-col gap-1 lg:w-[770px] py-5">
         <p>Quality</p>
         <h2 className="text-[30px] leading-tight font-bold">Your One-Stop Shop for Electrical Supplies</h2>
         <p className="text-[13px]">At Overberg Lighting & Electrical, we provide a wide range of high-quality electrical supplies. Visit our location to find everything you need for your electrical projects.</p>
       </div>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 mb-5">
-        <div className="py-16 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
+        <div className="py-16 lg:py-10 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
           <div>
             <Image loading="lazy" alt="Expert Advice and Friendly Service icon" src={'/friendlyFace.webp'} height={59} width={48}/>
-            <h3 className="text-[26px] font-bold leading-tight">Expert Advice and Friendly Service</h3>
+            <h3 className="text-[26px] lg:text-[20px] font-bold leading-tight">Expert Advice and Friendly Service</h3>
           </div>
           <p className="text-[13px]">Our knowledgeable staff is here to assist you with any questions or concerns you may have.</p>
         </div>
-        <div className="py-16 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
+        <div className="py-16 lg:py-10 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
           <div>
             <Image loading="lazy" alt="Competitive Prices on Top Brands icon" src={'/topBrands.webp'} height={59} width={48}/>
-            <h3 className="text-[26px] font-bold leading-tight">Competitive Prices on Top Brands</h3>
+            <h3 className="text-[26px] lg:text-[20px] font-bold leading-tight">Competitive Prices on Top Brands</h3>
           </div>
           <p className="text-[13px]">We offer competitive prices on a wide selection of top-quality electrical products.</p>
         </div>
-        <div className="py-16 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
+        <div className="py-16 lg:py-10 px-8 bg-white text-black rounded-[30px] gap-2 flex flex-col">
           <div>
             <Image loading="lazy" alt="Convenient Location and Easy Parking icon" src={'/location.webp'} height={59} width={48}/>
-            <h3 className="text-[26px] font-bold leading-tight">Convenient Location and Easy Parking</h3>
+            <h3 className="text-[26px] lg:text-[20px] font-bold leading-tight">Convenient Location and Easy Parking</h3>
           </div>
           <p className="text-[13px]">We offer competitive prices on a wide selection of top-quality electrical products.</p>
         </div>
@@ -163,40 +163,38 @@ export default function Home() {
         </Link>
       </div>
     </section>
-    <section className="py-10 px-8">
+    <section className="py-10 px-8 flex flex-col justify-center items-center">
+      <h3 className="text-[26px] font-bold leading-tight">4.7 Star Average</h3>
       <Carousel className="w-[90%] mx-auto">
         <CarouselContent>
           <CarouselItem>
             <div className="flex flex-col justify-center items-center lg:py-[150px] py-[50px]">
-              <p className="lg:w-[770px] pb-3 text-[13px] text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."</p>
-              <p className="font-bold">
-                Name Surname
+              <p className="lg:w-[770px] pb-3 text-[13px] text-center">"They are by far the best electricians in this town."</p>
+              <Image src={"/Review.png"} alt="5 star review icons" width={116} height={24}/>
+              <p className="font-bold pt-5">
+                Nancy              
               </p>
-              <p>
-                Position, Company name
-              </p>
+
             </div>
           </CarouselItem>
           <CarouselItem>
             <div className="flex flex-col justify-center items-center lg:py-[150px] py-[50px]">
-              <p className="lg:w-[770px] pb-3 text-[13px] text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."</p>
-              <p>
-                Name Surname
+              <p className="lg:w-[770px] pb-3 text-[13px] text-center">"Fantastic electrical supply store with helpful and knowledgeable people to help."</p>
+              <Image src={"/Review.png"} alt="5 star review icons" width={116} height={24}/>
+              <p className="font-bold pt-5">
+                Rignold
               </p>
-              <p className="font-bold">
-                Position, Company name
-              </p>
+
             </div>
           </CarouselItem>
           <CarouselItem>
             <div className="flex flex-col justify-center items-center lg:py-[150px] py-[50px]">
-              <p className="lg:w-[770px] pb-3 text-[13px] text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."</p>
-              <p>
-                Name Surname
+              <p className="lg:w-[770px] pb-3 text-[13px] text-center">"Absolutely great and outstanding quality of work!"</p>
+              <Image src={"/Review.png"} alt="5 star review icons" width={116} height={24}/>
+              <p className="font-bold pt-5">
+                JH Folmer
               </p>
-              <p className="font-bold">
-                Position, Company name
-              </p>
+
             </div>
           </CarouselItem>
         </CarouselContent>

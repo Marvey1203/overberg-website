@@ -1,6 +1,8 @@
 {
-  "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/services/page": "app/services/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/services/CCTV_&_Security/page": "app/services/CCTV_&_Security/page.js",
+  "/services/Dstv/page": "app/services/Dstv/page.js",
+  "/services/Air_Conditioning/page": "app/services/Air_Conditioning/page.js",
+  "/services/Lighting_&_Electrical/page": "app/services/Lighting_&_Electrical/page.js",
+  "/services/Solar_Systems/page": "app/services/Solar_Systems/page.js",
+  "/page": "app/page.js"
 }
