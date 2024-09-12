@@ -1,7 +1,4 @@
 {
-  "/services/page": "app/services/page.js",
-  "/services/Gates_&_Garages/page": "app/services/Gates_&_Garages/page.js",
-  "/services/Dstv/page": "app/services/Dstv/page.js",
-  "/services/Air_Conditioning/page": "app/services/Air_Conditioning/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
