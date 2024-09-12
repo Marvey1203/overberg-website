@@ -56,7 +56,7 @@ const Services = () => {
                             <Link href={'tel:0285143417'}>
                                 <button className="call-us-button">Call Us Now</button>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/services/CCTV_&_Security'}>
                                 <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                             </Link>
                         </div>
@@ -93,7 +93,7 @@ const Services = () => {
                     <Link href={'tel:0285143417'}>
                         <button className="call-us-button">Call Us Now</button>
                     </Link>
-                    <Link href={''}>
+                    <Link href={'/services/Lighting_&_Electrical'}>
                         <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                     </Link>                
                 </div>
@@ -111,7 +111,7 @@ const Services = () => {
                     <Link href={'tel:0285143417'}>
                         <button className="call-us-button">Call Us Now</button>
                     </Link>
-                    <Link href={''}>
+                    <Link href={'/services/Solar_Systems'}>
                             <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                     </Link>                
                 </div>
@@ -140,7 +140,7 @@ const Services = () => {
                                 <Link href={'tel:0285143417'}>
                                     <button className="call-us-button bg-black ">Call Us Now</button>
                                 </Link>
-                                <Link href={''}>
+                                <Link href={'/services/Gates_&_Garages'}>
                                     <button className="button flex flex-row gap-4 justify-center items-center ">Learn More <Image className="stroke-black" src={'/Arrow right black.svg'} alt="svg arrow showing right" height={5} width={9} /></button>
                                 </Link>
                             </div>                        
@@ -207,7 +207,7 @@ const Services = () => {
                             <Link href={'tel:0285143417'}>
                                 <button className="call-us-button">Call Us Now</button>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/services/Dstv'}>
                                 <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                             </Link>                        
                         </div>
@@ -246,7 +246,7 @@ const Services = () => {
                     <Link href={'tel:0285143417'}>
                         <button className="call-us-button ">Call Us Now</button>
                     </Link>
-                    <Link href={''}>
+                    <Link href={'/services/Air_Conditioning'}>
                         <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                     </Link>                
                 </div>
@@ -291,8 +291,8 @@ const Services = () => {
                     <Link href={'tel:0285143417'}>
                         <button className="call-us-button">Call Us Now</button>
                     </Link>
-                    <Link href={''}>
-                        <button className="button flex flex-row gap-4 justify-center items-center">Learn More <Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
+                    <Link href={'/about'}>
+                        <button className="button flex flex-row gap-4 justify-center items-center">Learn About Us<Image src={'/Arrow right.webp'} alt="svg arrow showing right" height={5} width={9} /></button>
                     </Link>                
                 </div>
             </div>
