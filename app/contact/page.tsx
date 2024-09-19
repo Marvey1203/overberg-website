@@ -19,7 +19,7 @@ const Contact = () => {
                         <Image src={'/Email.webp'} alt="Icon of an envelope used to show email addres" fill={true}/>
                     </div>
                 </div>
-                <Link className="border-b border-solid border-[#3F959B] lg:text-[13px]" href={'mailto:overberg@overberglighting.com'}>overberg@overberglighting.com</Link>
+                <Link className="border-b border-solid border-[#3F959B] lg:text-[13px]" href={'mailto:overberg@overberglighting.co.za'}>overberg@overberglighting.co.za</Link>
             </div>
             <div className="rounded-[30px] bg-white text-black py-[50px] px-5 flex flex-col justiyf-center items-center">
                 <div className="flex flex-row gap-3 justify-center items-center">
