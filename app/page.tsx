@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section className="grid lg:grid-cols-3 grid-flow-row gap-10 w-full lg:h-full lg:mb-40 mb-0 md:py-10 px-10">
+    <section className="grid lg:grid-cols-3 grid-flow-row gap-10 w-full h-full lg:mb-40 mb-0 md:py-10 px-10">
       <div className="lg:col-span-2 h-[380px] lg:h-[450px] rounded-[30px] flex justify-center items-center relative">
         <Image priority src={'/Rectangle 3.webp'} alt="Background image for electrician" fill={true} />
         <div className="absolute z-10 text-white lg:w-[70%] px-8 md:px-4">
